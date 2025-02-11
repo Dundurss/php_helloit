@@ -1,2 +1,4 @@
 # php_helloit
-Me learning php
+Hi! 
+
+This is my repo for learning php basics. 
