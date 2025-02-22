@@ -60,7 +60,7 @@
 
     foreach ($pilsetas_vietas as $pilseta => $vietas) {
         if (count($vietas) > $max_skaits) {
-            $max_pilseta = $pilseta;
+            $max_pilseta = $pilseta;    
             $max_vietas = $vietas;
             $max_skaits = count($vietas);
         }
