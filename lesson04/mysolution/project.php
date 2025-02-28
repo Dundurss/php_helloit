@@ -95,7 +95,12 @@ $old_data = isset($_SESSION['old_data']) ? $_SESSION['old_data'] : [];
         <?php endif; ?>
 
         <label for="username">Vārds: </label>
-        <input type="text" name="username" id="username">
+        <input type="text" 
+        name="username" 
+        id="username" accept 
+        value = <?php echo ($old_data['username']) ? htmlspecialchars
+        ($old_data['username']) : ''; ?>
+        >
         
         <br><br><br>
 

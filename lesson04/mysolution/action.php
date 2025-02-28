@@ -33,7 +33,7 @@ if ($gender === '') {
 
 // If fields are missing, redirect back
 if (!empty($missing_fields)) {
-    $_SESSION['errors'] = "Nepareizs vārds vai parole";
+    $_SESSION['errors'] = "Nav ievadīts kāds no laukiem";
     $_SESSION['old_data'] = [
         'username' => $username,
         'gender' => $gender
