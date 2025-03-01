@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h2>Vienkāršs kalkulators.</h2>
+  <p class="description">Kalkulators, kas ļauj ievadīt divos laukos divus skaitļus un parāda to summu pēc pogas Rēķināt
+    nospiešanas.</p>
+  <div class="calculator" ir="simple_calculator">
+    <label for="basic_pirmais_skaitlis">Pirmais skaitlis:</label>
+    <input type="number" id="basic_pirmais_skaitlis">
+    <br><br>
+    <label for="basic_otrais_skaitlis">Otrais skaitlis:</label>
+    <input type="number" id="basic_otrais_skaitlis">
+    <br><br>
+    <button id="basic_rekinat">Rēķināt</button>
+    <br><br>
+    <div id="basic_rezultats"></div>
+  </div>
+
+  <h2>Sarežģītāks kalkulators.</h2>
+  <p class="description">Piedāvā izvēlēties operāciju (saskaitīšana, dalīšana, reizināšana, summēšana, proccenti, daļa).</p>
+  <div>
+    <label for="operacija">Izvēlies operāciju:</label>
+    <select id="operacija">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <br><br>
+  </div>
+
+</body>
+
+</html>
