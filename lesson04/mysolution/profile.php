@@ -166,7 +166,7 @@ print_r($_SESSION);
     <div class="header">
         <div class="logo">My Profile</div>
         <div class="nav-right">
-            <button class="logout-btn" onclick="window.location.href='logout.php';">Logout</button>
+            <button class="logout-btn" onclick="window.location.href='Login.php';">Pieteikties</button>
         </div>
     </div>
 

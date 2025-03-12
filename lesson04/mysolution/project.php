@@ -98,7 +98,7 @@ $old_data = isset($_SESSION['old_data']) ? $_SESSION['old_data'] : [];
         <input type="text" 
         name="username" 
         id="username" accept 
-        value = <?php echo ($old_data['username']) ? htmlspecialchars
+        value = <?php echo isset($old_data['username']) ? htmlspecialchars
         ($old_data['username']) : ''; ?>
         >
         
