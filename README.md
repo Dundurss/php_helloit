@@ -10,7 +10,7 @@ Welcome to this **PHP repo**, created by a young, enthusiastic developer who’s
 ## 🚀 About me
 
 - **Name**: Kristers  Dzenis
-- **Age**: 12 years  
+- **Age**: 13 years  
 - **Journey So Far**:
   - Learned **TypeScript, Javascript**  
   - Learned **CSS**  
